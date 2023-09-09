@@ -1,0 +1,2 @@
+Intente hacer ciertas cosas pero no lleve a nada quisiera ver si me puede enseñar mas a fondo a completar el lab aunque no valga puntos
+quiero intentarlo, pero dudo mucho si lo estoy haciendo bien y lo hago pero si saber exactamente como hacerlo.

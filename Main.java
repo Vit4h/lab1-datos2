@@ -1,7 +1,35 @@
 import java.util.Scanner;
+import java.io.File;  // Import the File class
+import java.io.FileNotFoundException;  // Import this class to handle errors
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
+
+
+
+// Import the Scanner class to read text files
+
 
 public class Main{
-    
+    private String _name;
+    private int _dpi;
+
+    public Person(String name, int dpi){
+
+
+}
+
+public String getName(){return _name;}
+
+public int getdpi(){return _dpi;}
+
+   static void csv()throws FileNotFoundException{
+        Scanner input = new Scanner(new File("datos.txt"));
+        ArrayList<Person> personas = new ArrayList<>();
+
+
+
+   }
     static void menu(){
         try {
                 new ProcessBuilder("cmd", "/c", "cls").inheritIO().start().waitFor();
@@ -9,15 +37,16 @@ public class Main{
                 /*No hacer nada*/
             }
                /*Introduce tu código desde aquí*/
-        Scanner objeto = new Scanner(System.in);
-        System.out.println("Laboratorio 1");
-        System.out.println("Walter Herrera 1109722");
-        System.out.println("1.Insertar registro");
-        System.out.println("2.Eliminar Registro");
-        System.out.println("3.Buscar usuario");
-        System.out.println("4. salir");
-        int opcion = objeto.nextInt();
-        switch(opcion){
+            char asccii = 65;
+            Scanner objeto = new Scanner(System.in);
+            System.out.println("Laboratorio 1");
+            System.out.println("Walter Herrera 1109722");
+            System.out.println("1.Insertar registro");
+            System.out.println("2.Eliminar Registro");
+            System.out.println("3.Buscar usuario");
+            System.out.println("4. salir");
+            int opcion = objeto.nextInt();
+            switch(opcion){
             case 1:
 
             break;
